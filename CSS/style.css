@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.img-fond {
+  min-height: 100vh;
+  background-image: url(./img/image-acceuille-fond.png);
+  background-size: 100% 125%;
+  background-position: center;
+}
+
+/*# sourceMappingURL=style.css.map */
+body {
+  font-family: 'F1 Regular', sans-serif;
+}

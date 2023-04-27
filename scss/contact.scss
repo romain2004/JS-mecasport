@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'F1 Regular';
+    src: url('./font/formula1_display_regular-webfont.woff') format('woff'), dz url('./font/formula1_display_regular-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.container-contact {
+    text-align: center;
+    padding-bottom: 3rem;
+
+    p {
+        font-family: 'F1 Regular';
+    }
+
+    .sentence-information {
+        padding: 1rem;
+    }
+
+    h3,
+    h1 {
+        font-family: 'Bruno Ace SC';
+    }
+
+    h3 {
+        padding-top: 1.9rem;
+    }
+
+    h1 {
+        padding-top: 7rem;
+        padding-bottom: 3rem;
+    }
+
+    .info-contact {
+        padding-top: 3rem;
+    }
+
+    .mail {
+        font-family: 'Inconsolata', monospace;
+    }
+
+}

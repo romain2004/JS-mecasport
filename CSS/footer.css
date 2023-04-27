@@ -1,0 +1,19 @@
+@charset "UTF-8";
+footer {
+  background-color: rgba(145, 132, 132, 0.2588235294);
+  padding: 10px;
+  font-size: 14px;
+  height: 70px;
+}
+footer .footer-centre {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  /* Ajout de la hauteur à 100% */
+  flex-direction: column;
+  font-family: "Bruno Ace SC", cursive;
+  /* Empiler les éléments verticalement */
+}
+
+/*# sourceMappingURL=footer.css.map */
