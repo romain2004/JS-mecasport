@@ -1,0 +1,14 @@
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    flex-direction: column;
+}
+
+.sponsor1,
+.sponsor3 {
+    padding-right: 15rem;
+}

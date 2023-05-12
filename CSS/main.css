@@ -40,6 +40,8 @@ a {
   flex: 1;
   text-align: left;
   padding-left: 30px;
+  display: flex;
+  align-items: center;
 }
 
 .navbar-logo {
@@ -110,6 +112,10 @@ h3 {
   font-size: 3rem;
   font-family: "Bruno Ace SC", cursive;
   padding-top: 7rem;
+}
+
+.container {
+  background-color: #faf8f5;
 }
 
 .container-adventure,
@@ -267,6 +273,7 @@ table {
   overflow: hidden;
   width: 50%;
   margin-bottom: 4rem;
+  margin-top: 6rem;
 }
 
 th,
@@ -281,6 +288,7 @@ th {
   background-color: #00A8CC;
   color: #fff;
   text-transform: uppercase;
+  font-family: "Bruno Ace SC", cursive;
 }
 
 tr:nth-child(even) {
@@ -305,6 +313,21 @@ tr:hover {
   background-color: #00A8CC;
   color: #fff;
   transition: 0.3s;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+  flex-direction: column;
+}
+
+.sponsor1,
+.sponsor3 {
+  padding-right: 15rem;
 }
 
 /*# sourceMappingURL=main.css.map */

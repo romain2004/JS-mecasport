@@ -8,6 +8,7 @@ table {
   overflow: hidden;
   width: 50%;
   margin-bottom: 4rem;
+  margin-top: 6rem;
 }
 
 th,
@@ -22,6 +23,7 @@ th {
   background-color: #00A8CC;
   color: #fff;
   text-transform: uppercase;
+  font-family: "Bruno Ace SC", cursive;
 }
 
 tr:nth-child(even) {
