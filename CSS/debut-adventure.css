@@ -1,0 +1,27 @@
+@charset "UTF-8";
+#img-saxo-jura {
+  position: relative;
+  bottom: -200px;
+  /* pour cacher l'image au début */
+  opacity: 0;
+  transition: bottom 2s, opacity 2s;
+  /* pour ajouter une animation */
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+#img-saxo-jura .text-adventure-top {
+  display: flex !important;
+  flex-direction: column;
+}
+#img-saxo-jura .text-adventure-top p {
+  padding: 2rem;
+}
+
+.container-adventure h1 {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+/*# sourceMappingURL=debut-adventure.css.map */

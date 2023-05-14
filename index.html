@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Lato:wght@300;400&family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <title>JS mecasport</title>
 </head>
 <body>
@@ -46,6 +47,27 @@
     <div class="container">
         <div class="container-adventure">
             <h3>LE DÉBUT DE L'AVENTURE</h3>
+            <div class="paris-fou">
+                <h1>«Tout est parti d'un pari un peu fou : construire une 4 roues
+                    motrices à bas coûts pour courrir la ronde du Jura sur
+                    neige...»</h1>
+            </div>
+            <div id="img-saxo-jura">
+                <img src="./CSS/img/saxo.png">
+                <div class="text-adventure-top">
+                    <p>Autour de la table, Jérôme Nossein et
+                        Stéphane Carrière éclatent de rire
+                        devant un tel challenge.</p>
+                    <p>L'humour cède alors la place à la
+                        passion et aux grandes idées ; tombe
+                        alors le fameux
+                        « et pourquoi pas ? »</p>
+                    <p>Une feuille blanche reçoit
+                        immédiatement les premiers traits, les
+                        idées fusent et déjà les choix
+                        techniques se décident.</p>
+                </div>
+            </div>
         </div>
         <div class="container-discipline">
             <h3>LA DISCIPLINE</h3>
@@ -216,20 +238,31 @@
         <div class="container-card">
             <h3>L' EQUIPAGE</h3>
             <div class="card-equipage">
-                <div class="card card0">
+                <a href="./biographie-stephane.html" class="card card0">
                     <div class="border">
                         <h2>Stéphane Carrière</h2>
                     </div>
-                </div>
-                <div class="card card1">
+                </a>
+                <a href="./biographie-jerome.html" class="card card1">
                     <div class="border">
                         <h2>Jérôme Nossein </h2>
                     </div>
-                </div>
+                </a>
             </div>
         </div> 
         <div class="container-sponsors">
             <h3>NOS PARTENAIRES</h3>
+            <div class="texte">
+                <p>Le sport automobile est exigeant et il n'est pas nécessaire de rappeler que la
+                    compétition ne serait pas possible sans vous !</p>
+                <p>Avec une voiture de pointe, des déplacements conséquents et une assistance
+                    nécessaire pour les courses, les budgets deviennent très importants si l'on veut
+                    s'engager dans ces épreuves mythiques.</p>
+                <p>Ce rêve ne deviendra réalité qu'avec votre aide et votre soutien.</p>
+                <p>Quel honneur pour nous de pouvoir, sur les épreuves auxquelles nous
+                    participerons, porter vos couleurs et montrer que la fusion de notre passion et
+                    de vos intérêts commerciaux peut aboutir à gagner ce challenge.</p>
+            </div>
             <div class="grid">
                 <div class="sponsors12">
                     <img class="sponsor1" src="./CSS/img/sponsor1.png" alt="Logo 1">
@@ -247,5 +280,7 @@
             <p>Copyright ©  2023 - JS mecasport</p>
         </div>
     </footer>
+    <script src="./Javascript/index.js"></script>
+
 </body>
 </html>

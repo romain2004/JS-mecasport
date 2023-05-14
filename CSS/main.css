@@ -107,6 +107,10 @@ a {
   background-position: center;
 }
 
+p {
+  color: black;
+}
+
 h3 {
   text-align: center;
   font-size: 3rem;
@@ -124,6 +128,14 @@ h3 {
 .container-card,
 .container-sponsors {
   min-height: 100vh;
+}
+
+.texte {
+  text-align: center;
+  padding-top: 10rem;
+}
+.texte p {
+  padding: 1rem;
 }
 
 @font-face {
@@ -147,10 +159,10 @@ h3 {
 .container-contact h1 {
   font-family: "Bruno Ace SC";
 }
-.container-contact h3 {
+.container-contact h1 {
   padding-top: 1.9rem;
 }
-.container-contact h1 {
+.container-contact h3 {
   padding-top: 7rem;
   padding-bottom: 3rem;
 }
@@ -261,6 +273,7 @@ h2 {
   margin: 20px;
   opacity: 0;
   transition: opacity 1s;
+  font-size: 28px;
 }
 
 table {
@@ -328,6 +341,54 @@ tr:hover {
 .sponsor1,
 .sponsor3 {
   padding-right: 15rem;
+}
+
+.obj-corse {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-biographie {
+  background-color: #faf8f5;
+}
+.container-biographie .texte-photo-stephane {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.container-biographie .texte-photo-stephane .texte-stephane {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#img-saxo-jura {
+  position: relative;
+  bottom: -200px;
+  /* pour cacher l'image au début */
+  opacity: 0;
+  transition: bottom 2s, opacity 2s;
+  /* pour ajouter une animation */
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+#img-saxo-jura .text-adventure-top {
+  display: flex !important;
+  flex-direction: column;
+}
+#img-saxo-jura .text-adventure-top p {
+  padding: 2rem;
+}
+
+.container-adventure h1 {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  text-align: center;
 }
 
 /*# sourceMappingURL=main.css.map */

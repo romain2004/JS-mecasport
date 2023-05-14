@@ -3,6 +3,7 @@
     "sass": "sass -w scss:css"
   },
   "dependencies": {
+    "jquery": "^3.7.0",
     "sass": "^1.62.1"
   }
 }
