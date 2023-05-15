@@ -5,6 +5,50 @@
   padding: 0;
 }
 
+.img-fond {
+  min-height: 100vh;
+  background-image: url(./img/image-acceuille-fond.png);
+  background-size: 100% 125%;
+  background-position: center;
+}
+
+p {
+  color: black;
+}
+
+h3 {
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Bruno Ace SC", cursive;
+  padding-top: 7rem;
+}
+
+.container {
+  background-color: #faf8f5;
+}
+
+.container-adventure,
+.container-discipline,
+.container-technical,
+.container-card,
+.container-sponsors {
+  min-height: 100vh;
+}
+
+.texte {
+  text-align: center;
+  padding-top: 10rem;
+}
+.texte p {
+  padding: 1rem;
+}
+
+@font-face {
+  font-family: "F1 Regular";
+  src: url("../CSS/font/formula1_display_regular-webfont.woff") format("woff"), url("../CSS/font/formula1_display_regular-webfont.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
 .navbar {
   display: flex;
   align-items: center;
@@ -94,56 +138,6 @@ a {
   transform: scaleX(1);
 }
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-.img-fond {
-  min-height: 100vh;
-  background-image: url(./img/image-acceuille-fond.png);
-  background-size: 100% 125%;
-  background-position: center;
-}
-
-p {
-  color: black;
-}
-
-h3 {
-  text-align: center;
-  font-size: 3rem;
-  font-family: "Bruno Ace SC", cursive;
-  padding-top: 7rem;
-}
-
-.container {
-  background-color: #faf8f5;
-}
-
-.container-adventure,
-.container-discipline,
-.container-technical,
-.container-card,
-.container-sponsors {
-  min-height: 100vh;
-}
-
-.texte {
-  text-align: center;
-  padding-top: 10rem;
-}
-.texte p {
-  padding: 1rem;
-}
-
-@font-face {
-  font-family: "F1 Regular";
-  src: url("./font/formula1_display_regular-webfont.woff") format("woff"), dz url("./font/formula1_display_regular-webfont.woff2") format("woff2");
-  font-weight: normal;
-  font-style: normal;
-}
 .container-contact {
   text-align: center;
   padding-bottom: 3rem;
@@ -328,6 +322,12 @@ tr:hover {
   transition: 0.3s;
 }
 
+.container-sponsors p {
+  font-family: "F1 Regular";
+  line-height: 1.3rem;
+  margin: 0 20rem;
+}
+
 .grid {
   display: flex;
   flex-wrap: wrap;
@@ -343,52 +343,191 @@ tr:hover {
   padding-right: 15rem;
 }
 
-.obj-corse {
+.container-corse {
+  background-color: #faf8f5;
+}
+.container-corse .obj-corse {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  margin: 0 10rem;
+}
+.container-corse .obj-corse .corse-texte-first {
+  margin-right: 10rem;
+}
+.container-corse .obj-corse .corse-texte-first p {
+  margin: 1rem 0;
+  line-height: 1.3;
+  font-family: "F1 Regular";
+}
+.container-corse .budget {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.container-corse .titre-budget-corse {
+  padding-top: 0rem !important;
 }
 
 .container-biographie {
   background-color: #faf8f5;
-}
-.container-biographie .texte-photo-stephane {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-}
-.container-biographie .texte-photo-stephane .texte-stephane {
+  font-family: "F1 Regular";
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
+.container-biographie h3 {
+  text-align: center;
+}
+.container-biographie .texte-photo-stephane {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 18rem;
+  padding-top: 3rem;
+  max-width: 80%;
+  text-align: center;
+}
+.container-biographie .texte-photo-stephane img {
+  width: 20%;
+  margin-right: 5%;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.container-biographie .texte-photo-stephane .texte-stephane,
+.container-biographie .texte-photo-stephane .texte-jerome {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: justify;
+  justify-content: center;
+  font-family: "F1 Regular";
+  line-height: 1.6;
+}
+.container-biographie .texte-photo-stephane .texte-stephane .txt-align,
+.container-biographie .texte-photo-stephane .texte-jerome .txt-align {
+  text-align: center;
+  margin: 2rem;
+}
+.container-biographie .texte-photo-stephane .texte-jerome {
+  padding: 0 5rem;
+}
+.container-biographie .texte-stephane-second {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 6rem;
+  text-align: justify;
+  line-height: 1.6;
+  margin-bottom: 5rem;
+}
+.container-biographie .Texte-photo-jerome-stephane {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0;
+  padding-top: 3rem;
+  max-width: 80%;
+  text-align: justify;
+}
+.container-biographie .Texte-photo-jerome-stephane img {
+  width: 20%;
+  margin-right: 5%;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.container-biographie .Texte-photo-jerome-stephane .texte-stephane-second {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 6rem;
+  text-align: center;
+  line-height: 1.6;
+  margin-bottom: 5rem;
+}
 
 #img-saxo-jura {
   position: relative;
-  bottom: -200px;
+  bottom: -120px;
   /* pour cacher l'image au début */
   opacity: 0;
   transition: bottom 2s, opacity 2s;
   /* pour ajouter une animation */
   display: flex;
   align-items: center;
+  justify-content: center;
   text-align: center;
+  margin: 0 10rem;
+  padding-bottom: 7rem;
+}
+#img-saxo-jura .saxo1 {
+  border: 2px solid black;
+  border-radius: 15px;
 }
 #img-saxo-jura .text-adventure-top {
   display: flex !important;
   flex-direction: column;
+  /* Ajout de cette ligne pour centrer */
+  justify-content: center;
+  width: 50%;
+  margin-left: 6rem;
 }
 #img-saxo-jura .text-adventure-top p {
-  padding: 2rem;
+  padding-left: 0.5rem;
+  font-family: "F1 Regular";
+  text-align: left;
+  line-height: 1.6;
 }
 
 .container-adventure h1 {
   padding-top: 3rem;
   padding-bottom: 2rem;
   text-align: center;
+  font-family: "F1 Regular";
+  margin: 5rem 20rem;
+  font-size: 1.7rem;
+}
+.container-adventure .adventure-second-text {
+  background-color: white;
+}
+.container-adventure .adventure-second-text p {
+  font-family: "F1 Regular";
+  text-align: center;
+  padding: 8rem 20rem;
+  line-height: 1.6;
+}
+.container-adventure .adventure-troisieme-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "F1 Regular";
+  line-height: 1.6;
+  text-align: center;
+  margin: 5rem 18rem;
+}
+.container-adventure .adventure-troisieme-text .big-strong {
+  font-size: 1.5rem;
+}
+.container-adventure .adventure-troisieme-text .adventure-ford-mk2 {
+  border: 2px solid black;
+  border-radius: 15px;
+  margin-left: 7rem;
+}
+.container-adventure .adventure-quatrieme-text {
+  background-color: white;
+  font-family: "F1 Regular";
+  line-height: 1.6;
+  text-align: center;
+  padding: 6rem 25rem;
 }
 
 /*# sourceMappingURL=main.css.map */

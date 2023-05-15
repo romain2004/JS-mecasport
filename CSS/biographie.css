@@ -1,17 +1,85 @@
 .container-biographie {
   background-color: #faf8f5;
-}
-.container-biographie .texte-photo-stephane {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-}
-.container-biographie .texte-photo-stephane .texte-stephane {
+  font-family: "F1 Regular";
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+.container-biographie h3 {
+  text-align: center;
+}
+.container-biographie .texte-photo-stephane {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 18rem;
+  padding-top: 3rem;
+  max-width: 80%;
+  text-align: center;
+}
+.container-biographie .texte-photo-stephane img {
+  width: 20%;
+  margin-right: 5%;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.container-biographie .texte-photo-stephane .texte-stephane,
+.container-biographie .texte-photo-stephane .texte-jerome {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: justify;
+  justify-content: center;
+  font-family: "F1 Regular";
+  line-height: 1.6;
+}
+.container-biographie .texte-photo-stephane .texte-stephane .txt-align,
+.container-biographie .texte-photo-stephane .texte-jerome .txt-align {
+  text-align: center;
+  margin: 2rem;
+}
+.container-biographie .texte-photo-stephane .texte-jerome {
+  padding: 0 5rem;
+}
+.container-biographie .texte-stephane-second {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 6rem;
+  text-align: justify;
+  line-height: 1.6;
+  margin-bottom: 5rem;
+}
+.container-biographie .Texte-photo-jerome-stephane {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0;
+  padding-top: 3rem;
+  max-width: 80%;
+  text-align: justify;
+}
+.container-biographie .Texte-photo-jerome-stephane img {
+  width: 20%;
+  margin-right: 5%;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.container-biographie .Texte-photo-jerome-stephane .texte-stephane-second {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 6rem;
+  text-align: center;
+  line-height: 1.6;
+  margin-bottom: 5rem;
 }
 
 /*# sourceMappingURL=biographie.css.map */

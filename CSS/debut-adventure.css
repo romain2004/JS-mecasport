@@ -1,27 +1,77 @@
 @charset "UTF-8";
 #img-saxo-jura {
   position: relative;
-  bottom: -200px;
+  bottom: -120px;
   /* pour cacher l'image au début */
   opacity: 0;
   transition: bottom 2s, opacity 2s;
   /* pour ajouter une animation */
   display: flex;
   align-items: center;
+  justify-content: center;
   text-align: center;
+  margin: 0 10rem;
+  padding-bottom: 7rem;
+}
+#img-saxo-jura .saxo1 {
+  border: 2px solid black;
+  border-radius: 15px;
 }
 #img-saxo-jura .text-adventure-top {
   display: flex !important;
   flex-direction: column;
+  /* Ajout de cette ligne pour centrer */
+  justify-content: center;
+  width: 50%;
+  margin-left: 6rem;
 }
 #img-saxo-jura .text-adventure-top p {
-  padding: 2rem;
+  padding-left: 0.5rem;
+  font-family: "F1 Regular";
+  text-align: left;
+  line-height: 1.6;
 }
 
 .container-adventure h1 {
   padding-top: 3rem;
   padding-bottom: 2rem;
   text-align: center;
+  font-family: "F1 Regular";
+  margin: 5rem 20rem;
+  font-size: 1.7rem;
+}
+.container-adventure .adventure-second-text {
+  background-color: white;
+}
+.container-adventure .adventure-second-text p {
+  font-family: "F1 Regular";
+  text-align: center;
+  padding: 8rem 20rem;
+  line-height: 1.6;
+}
+.container-adventure .adventure-troisieme-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "F1 Regular";
+  line-height: 1.6;
+  text-align: center;
+  margin: 5rem 18rem;
+}
+.container-adventure .adventure-troisieme-text .big-strong {
+  font-size: 1.5rem;
+}
+.container-adventure .adventure-troisieme-text .adventure-ford-mk2 {
+  border: 2px solid black;
+  border-radius: 15px;
+  margin-left: 7rem;
+}
+.container-adventure .adventure-quatrieme-text {
+  background-color: white;
+  font-family: "F1 Regular";
+  line-height: 1.6;
+  text-align: center;
+  padding: 6rem 25rem;
 }
 
 /*# sourceMappingURL=debut-adventure.css.map */
