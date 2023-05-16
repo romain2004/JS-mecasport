@@ -6,6 +6,31 @@
   align-items: center;
   justify-content: center;
 }
+.container-biographie .container-text-second {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem 18rem;
+}
+.container-biographie .container-text-second .texte-jerome-second {
+  text-align: center;
+  line-height: 1.6;
+  margin: 0 10rem;
+}
+.container-biographie .container-text-second .img-jerome-second-text {
+  width: 20%;
+}
+.container-biographie .container-text-second .img-jerome-second-text img {
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.container-biographie .texte-jerome-troisieme {
+  text-align: center;
+  margin: 7rem 28rem;
+  line-height: 1.6;
+  font-weight: 500;
+}
 .container-biographie h3 {
   text-align: center;
 }
@@ -41,7 +66,7 @@
   margin: 2rem;
 }
 .container-biographie .texte-photo-stephane .texte-jerome {
-  padding: 0 5rem;
+  padding-bottom: 2rem;
 }
 .container-biographie .texte-stephane-second {
   width: 50%;
@@ -50,7 +75,7 @@
   justify-content: center;
   align-items: center;
   margin: 30px 6rem;
-  text-align: justify;
+  text-align: center;
   line-height: 1.6;
   margin-bottom: 5rem;
 }
@@ -69,17 +94,6 @@
   margin-right: 5%;
   border: 2px solid black;
   border-radius: 10px;
-}
-.container-biographie .Texte-photo-jerome-stephane .texte-stephane-second {
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 30px 6rem;
-  text-align: center;
-  line-height: 1.6;
-  margin-bottom: 5rem;
 }
 
 /*# sourceMappingURL=biographie.css.map */
