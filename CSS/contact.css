@@ -5,16 +5,19 @@
 }
 .container-contact p {
   font-family: "F1 Regular";
+  line-height: 1.6;
 }
-.container-contact .sentence-information {
-  padding: 1rem;
+.container-contact .contact-sentence-information {
+  padding: 3rem;
 }
 .container-contact h3,
 .container-contact h1 {
   font-family: "Bruno Ace SC";
 }
 .container-contact h1 {
-  padding-top: 1.9rem;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  font-size: 1.6rem;
 }
 .container-contact h3 {
   padding-top: 7rem;
@@ -22,9 +25,10 @@
 }
 .container-contact .info-contact {
   padding-top: 3rem;
+  padding-bottom: 1rem;
 }
 .container-contact .mail {
-  font-family: "Inconsolata", monospace;
+  font-family: "F1 Regular", cursif;
 }
 
 /*# sourceMappingURL=contact.css.map */

@@ -5,10 +5,11 @@
 
     p {
         font-family: 'F1 Regular';
+        line-height: 1.6;
     }
 
-    .sentence-information {
-        padding: 1rem;
+    .contact-sentence-information {
+        padding: 3rem;
     }
 
     h3,
@@ -17,7 +18,9 @@
     }
 
     h1 {
-        padding-top: 1.9rem;
+        padding-top: 3rem;
+        padding-bottom: 1rem;
+        font-size: 1.6rem;
     }
 
     h3 {
@@ -27,10 +30,11 @@
 
     .info-contact {
         padding-top: 3rem;
+        padding-bottom: 1rem;
     }
 
     .mail {
-        font-family: 'Inconsolata', monospace;
+        font-family: 'F1 Regular', cursif;
     }
 
 }

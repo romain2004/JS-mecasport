@@ -43,6 +43,7 @@
         font-family: 'F1 Regular';
         margin: 5rem 20rem;
         font-size: 1.7rem;
+        color: rgba(0, 0, 0, 0.6);
     }
 
     .adventure-second-text {
@@ -83,4 +84,14 @@
         text-align: center;
         padding: 6rem 25rem;
     }
+
+
+    img {
+        transition: transform 0.3s ease-in-out;
+    }
+
+    img:hover {
+        transform: scale(1.09);
+    }
+
 }

@@ -95,5 +95,11 @@
   border: 2px solid black;
   border-radius: 10px;
 }
+.container-biographie img {
+  transition: transform 0.4s ease-in-out;
+}
+.container-biographie img:hover {
+  transform: scale(1.15);
+}
 
 /*# sourceMappingURL=biographie.css.map */
