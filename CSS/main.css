@@ -359,6 +359,50 @@ h2 {
 .container-corse {
   background-color: #faf8f5;
 }
+.container-corse table {
+  font-family: Arial, sans-serif;
+  border-collapse: collapse;
+  margin: 25px auto;
+  background-color: #fff;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  overflow: hidden;
+  width: 50%;
+  margin-bottom: 4rem;
+  margin-top: 6rem;
+}
+.container-corse th,
+.container-corse td {
+  padding: 10px;
+  text-align: center;
+  color: #444;
+  border: 1px solid #ccc;
+}
+.container-corse th {
+  background-color: #00A8CC;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Bruno Ace SC", cursive;
+}
+.container-corse tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.container-corse tr:hover {
+  background-color: #00A8CC;
+  color: #fff;
+  transition: 0.3s;
+}
+.container-corse .row:nth-child(odd) {
+  background-color: #e3dfdf;
+}
+.container-corse .row:nth-child(even) {
+  background-color: #faf8f5;
+}
+.container-corse .row:hover {
+  background-color: #00A8CC;
+  color: #fff;
+  transition: 0.3s;
+}
 .container-corse .obj-corse {
   display: flex;
   flex-direction: row;
@@ -528,7 +572,7 @@ h2 {
   font-family: "F1 Regular";
   margin: 5rem 20rem;
   font-size: 1.7rem;
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(0, 0, 0, 0.7);
 }
 .container-adventure .adventure-second-text {
   background-color: white;
