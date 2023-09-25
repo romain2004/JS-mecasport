@@ -1,30 +1,30 @@
 @charset "UTF-8";
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 .img-fond {
-  min-height: calc(100vh - 100px);
-  background-image: url(../CSS/img/new-voiture/photo-profil.jpg);
-  background-size: 100% 170%;
-  background-position: center;
+    min-height: calc(100vh - 100px);
+    background-image: url(../CSS/img/new-voiture/photo-profil.jpg);
+    background-size: 100% 170%;
+    background-position: center;
 }
 
 p {
-  color: black;
+    color: black;
 }
 
 h3 {
-  text-align: center;
-  font-size: 3rem;
-  font-family: "Bruno Ace SC", cursive;
-  padding-top: 7rem;
+    text-align: center;
+    font-size: 3rem;
+    font-family: "Bruno Ace SC", cursive;
+    padding-top: 7rem;
 }
 
 .container {
-  background-color: #faf8f5;
+    background-color: #faf8f5;
 }
 
 .container-adventure,
@@ -32,645 +32,691 @@ h3 {
 .container-technical,
 .container-card,
 .container-sponsors {
-  min-height: 100vh;
+    min-height: 100vh;
 }
 
 .texte {
-  text-align: center;
-  padding-top: 10rem;
+    text-align: center;
+    padding-top: 10rem;
 }
 .texte p {
-  padding: 1rem;
+    padding: 1rem;
 }
 
 @font-face {
-  font-family: "F1 Regular";
-  src: url("../CSS/font/formula1_display_regular-webfont.woff") format("woff"), url("../CSS/font/formula1_display_regular-webfont.woff2") format("woff2");
-  font-weight: normal;
-  font-style: normal;
+    font-family: "F1 Regular";
+    src: url("../CSS/font/formula1_display_regular-webfont.woff") format("woff"),
+        url("../CSS/font/formula1_display_regular-webfont.woff2")
+            format("woff2");
+    font-weight: normal;
+    font-style: normal;
 }
 .navbar {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  height: 100px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100px;
 }
 
 .border-nav {
-  border-bottom: solid 1px black;
+    border-bottom: solid 1px black;
 }
 
 ul {
-  list-style: none;
+    list-style: none;
 }
 
 li {
-  display: inline-block;
+    display: inline-block;
 }
 
 .logo-accueil {
-  width: 250px;
-  height: 85.3px;
+    width: 250px;
+    height: 85.3px;
 }
 
 a {
-  color: #0b0805;
-  text-decoration: none;
-  font-family: "Bruno Ace SC", cursive;
-  font-size: 1.2rem;
+    color: #0b0805;
+    text-decoration: none;
+    font-family: "Bruno Ace SC", cursive;
+    font-size: 1.2rem;
 }
 
 .navbar-left {
-  flex: 1;
-  text-align: left;
-  padding-left: 30px;
-  display: flex;
-  align-items: center;
+    flex: 1;
+    text-align: left;
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
 }
 
 .navbar-logo {
-  flex: 1;
-  text-align: center;
+    flex: 1;
+    text-align: center;
 }
 
 .navbar-right {
-  flex: 1;
-  text-align: right;
-  padding-right: 30px;
+    flex: 1;
+    text-align: right;
+    padding-right: 30px;
 }
 
 .navbar li {
-  position: relative;
-  text-decoration: none;
-  color: black;
-  margin: 25px 25px 10px;
-  padding-bottom: 2px;
+    position: relative;
+    text-decoration: none;
+    color: black;
+    margin: 25px 25px 10px;
+    padding-bottom: 2px;
 }
 .navbar li::before {
-  content: "";
-  position: absolute;
-  bottom: -2px;
-  left: 0;
-  width: 0;
-  height: 1.3px;
-  background-color: black;
-  transition: width 0.3s ease-out;
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 1.3px;
+    background-color: black;
+    transition: width 0.3s ease-out;
 }
 .navbar li:hover::before {
-  width: 100%;
+    width: 100%;
 }
 .navbar li:hover::after {
-  content: "";
-  position: absolute;
-  bottom: -2px;
-  right: 0;
-  width: 0;
-  height: 1.3px;
-  background-color: black;
-  transition: width 0.3s ease-out;
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    right: 0;
+    width: 0;
+    height: 1.3px;
+    background-color: black;
+    transition: width 0.3s ease-out;
 }
 .navbar li:hover::before {
-  transform-origin: left;
-  transform: scaleX(1);
+    transform-origin: left;
+    transform: scaleX(1);
 }
 .navbar li:hover::after {
-  transform-origin: right;
-  transform: scaleX(1);
+    transform-origin: right;
+    transform: scaleX(1);
 }
 
 .container-contact {
-  text-align: center;
-  padding-bottom: 3rem;
-  background-color: #faf8f5;
+    text-align: center;
+    padding-bottom: 3rem;
+    background-color: #faf8f5;
 }
 .container-contact p {
-  font-family: "F1 Regular";
-  line-height: 1.6;
+    font-family: "F1 Regular";
+    line-height: 1.6;
 }
 .container-contact .contact-sentence-information {
-  padding: 3rem;
+    padding: 3rem;
 }
 .container-contact h3,
 .container-contact h1 {
-  font-family: "Bruno Ace SC";
+    font-family: "Bruno Ace SC";
 }
 .container-contact h1 {
-  padding-top: 3rem;
-  padding-bottom: 1rem;
-  font-size: 1.6rem;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    font-size: 1.6rem;
 }
 .container-contact h3 {
-  padding-top: 7rem;
-  padding-bottom: 3rem;
+    padding-top: 7rem;
+    padding-bottom: 3rem;
 }
 .container-contact .info-contact {
-  padding-top: 3rem;
-  padding-bottom: 1rem;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
 }
 .container-contact .mail {
-  font-family: "F1 Regular", cursif;
+    font-family: "F1 Regular", cursif;
 }
 
 footer {
-  background-color: rgba(145, 132, 132, 0.2588235294);
-  padding: 10px;
-  font-size: 14px;
-  height: 70px;
+    background-color: rgba(145, 132, 132, 0.2588235294);
+    padding: 10px;
+    font-size: 14px;
+    height: 70px;
 }
 footer .footer-centre {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  /* Ajout de la hauteur à 100% */
-  flex-direction: column;
-  font-family: "Bruno Ace SC", cursive;
-  /* Empiler les éléments verticalement */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    /* Ajout de la hauteur à 100% */
+    flex-direction: column;
+    font-family: "Bruno Ace SC", cursive;
+    /* Empiler les éléments verticalement */
 }
 
 .card-equipage {
-  height: 100vh;
-  width: 100vw;
-  max-height: 800px;
-  max-width: 1280px;
-  min-height: 600px;
-  min-width: 1000px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin: 0 auto;
+    height: 100vh;
+    width: 100vw;
+    max-height: 800px;
+    max-width: 1280px;
+    min-height: 600px;
+    min-width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
 }
 
 .border {
-  height: 369px;
-  width: 290px;
-  background: transparent;
-  border-radius: 10px;
-  transition: border 1s;
-  position: relative;
+    height: 369px;
+    width: 290px;
+    background: transparent;
+    border-radius: 10px;
+    transition: border 1s;
+    position: relative;
 }
 
 .border:hover {
-  border: 1px solid #fff;
+    border: 1px solid #fff;
 }
 
 .card {
-  height: 379px;
-  width: 300px;
-  background: #808080;
-  border-radius: 10px;
-  transition: background 0.8s;
-  overflow: hidden;
-  background: #000;
-  box-shadow: 0 70px 63px -60px #000;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
+    height: 379px;
+    width: 300px;
+    background: #808080;
+    border-radius: 10px;
+    transition: background 0.8s;
+    overflow: hidden;
+    background: #000;
+    box-shadow: 0 70px 63px -60px #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
 
 .card0 {
-  background: url(../CSS/img/stephane-noir-blanc.png) center center no-repeat;
-  background-size: 300px;
+    background: url(../CSS/img/stephane-noir-blanc.png) center center no-repeat;
+    background-size: 300px;
 }
 
 .card0:hover {
-  background: url(../CSS/img/stephane-noir-blanc.png) left center no-repeat;
-  background-size: 600px;
+    background: url(../CSS/img/stephane-noir-blanc.png) left center no-repeat;
+    background-size: 600px;
 }
 
 .card0:hover h2 {
-  opacity: 1;
+    opacity: 1;
 }
 
 .card0:hover .fa {
-  opacity: 1;
+    opacity: 1;
 }
 
 .card1 {
-  background: url(../CSS/img/jerome-noir-blanc.png) center center no-repeat;
-  background-size: 300px;
+    background: url(../CSS/img/jerome-noir-blanc.png) center center no-repeat;
+    background-size: 300px;
 }
 
 .card1:hover {
-  background: url(../CSS/img/jerome-noir-blanc.png) left center no-repeat;
-  background-size: 600px;
+    background: url(../CSS/img/jerome-noir-blanc.png) left center no-repeat;
+    background-size: 600px;
 }
 
 .card1:hover h2 {
-  opacity: 1;
+    opacity: 1;
 }
 
 .card1:hover .fa {
-  opacity: 1;
+    opacity: 1;
 }
 
 h2 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #fff;
-  margin: 20px;
-  opacity: 0;
-  transition: opacity 1s;
-  font-size: 28px;
-  font-family: "F1 Regular";
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #fff;
+    margin: 20px;
+    opacity: 0;
+    transition: opacity 1s;
+    font-size: 28px;
+    font-family: "F1 Regular";
 }
 
 .container-technical {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .container-technical table {
-  font-family: Arial, sans-serif;
-  border-collapse: collapse;
-  margin: 25px auto;
-  background-color: #fff;
-  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
-  border-radius: 10px;
-  overflow: hidden;
-  width: 50%;
-  margin-bottom: 4rem;
-  margin-top: 6rem;
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    margin: 25px auto;
+    background-color: #fff;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    overflow: hidden;
+    width: 50%;
+    margin-bottom: 4rem;
+    margin-top: 6rem;
 }
 .container-technical th,
 .container-technical td {
-  padding: 10px;
-  text-align: center;
-  color: #444;
-  border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    color: #444;
+    border: 1px solid #ccc;
 }
 .container-technical th {
-  background-color: #00A8CC;
-  color: #fff;
-  text-transform: uppercase;
-  font-family: "Bruno Ace SC", cursive;
+    background-color: #00a8cc;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Bruno Ace SC", cursive;
 }
 .container-technical tr:nth-child(even) {
-  background-color: #f2f2f2;
+    background-color: #f2f2f2;
 }
 .container-technical tr:hover {
-  background-color: #00A8CC;
-  color: #fff;
-  transition: 0.3s;
+    background-color: #00a8cc;
+    color: #fff;
+    transition: 0.3s;
 }
 .container-technical .row:nth-child(odd) {
-  background-color: #e3dfdf;
+    background-color: #e3dfdf;
 }
 .container-technical .row:nth-child(even) {
-  background-color: #faf8f5;
+    background-color: #faf8f5;
 }
 .container-technical .row:hover {
-  background-color: #00A8CC;
-  color: #fff;
-  transition: 0.3s;
+    background-color: #00a8cc;
+    color: #fff;
+    transition: 0.3s;
 }
 .container-technical img {
-  border: 2px solid black;
-  border-radius: 10px;
-  transition: transform 0.3s ease-in-out;
-  margin: 2rem 3rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+    margin: 2rem 3rem;
 }
 .container-technical img:hover {
-  transform: scale(1.09);
+    transform: scale(1.09);
 }
 
 .container-sponsors p {
-  font-family: "F1 Regular";
-  line-height: 1.3rem;
-  margin: 0 20rem;
+    font-family: "F1 Regular";
+    line-height: 1.3rem;
+    margin: 0 20rem;
 }
 
 .grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  padding: 20px;
-  flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    flex-direction: column;
 }
 
 .sponsor1,
 .sponsor3 {
-  padding-right: 15rem;
+    padding-right: 15rem;
 }
 
 .container-corse {
-  background-color: #faf8f5;
+    background-color: #faf8f5;
+}
+.container-corse table {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    margin: 25px auto;
+    background-color: #fff;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    overflow: hidden;
+    width: 50%;
+    margin-bottom: 4rem;
+    margin-top: 6rem;
+}
+.container-corse th,
+.container-corse td {
+    padding: 10px;
+    text-align: center;
+    color: #444;
+    border: 1px solid #ccc;
+}
+.container-corse th {
+    background-color: #00a8cc;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Bruno Ace SC", cursive;
+}
+.container-corse tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+.container-corse tr:hover {
+    background-color: #00a8cc;
+    color: #fff;
+    transition: 0.3s;
+}
+.container-corse .row:nth-child(odd) {
+    background-color: #e3dfdf;
+}
+.container-corse .row:nth-child(even) {
+    background-color: #faf8f5;
+}
+.container-corse .row:hover {
+    background-color: #00a8cc;
+    color: #fff;
+    transition: 0.3s;
 }
 .container-corse .obj-corse {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin: 0 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10rem;
 }
 .container-corse .obj-corse .corse-texte-first {
-  margin-right: 10rem;
+    margin-right: 10rem;
 }
 .container-corse .obj-corse .corse-texte-first p {
-  margin: 1rem 0;
-  line-height: 1.3;
-  font-family: "F1 Regular";
+    margin: 1rem 0;
+    line-height: 1.3;
+    font-family: "F1 Regular";
 }
 .container-corse .budget {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 .container-corse .titre-budget-corse {
-  padding-top: 0rem !important;
+    padding-top: 0rem !important;
 }
 
 .container-biographie {
-  background-color: #faf8f5;
-  font-family: "F1 Regular";
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+    background-color: #faf8f5;
+    font-family: "F1 Regular";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .container-biographie .container-text-second {
-  background-color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 5rem 18rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem 18rem;
 }
 .container-biographie .container-text-second .texte-jerome-second {
-  text-align: center;
-  line-height: 1.6;
-  margin: 0 10rem;
+    text-align: center;
+    line-height: 1.6;
+    margin: 0 10rem;
 }
 .container-biographie .container-text-second .img-jerome-second-text {
-  width: 20%;
+    width: 20%;
 }
 .container-biographie .container-text-second .img-jerome-second-text img {
-  border: 2px solid black;
-  border-radius: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
 }
 .container-biographie .texte-jerome-troisieme {
-  text-align: center;
-  margin: 7rem 28rem;
-  line-height: 1.6;
-  font-weight: 500;
+    text-align: center;
+    margin: 7rem 28rem;
+    line-height: 1.6;
+    font-weight: 500;
 }
 .container-biographie h3 {
-  text-align: center;
+    text-align: center;
 }
 .container-biographie .texte-photo-stephane {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  margin: 50px 18rem;
-  padding-top: 3rem;
-  max-width: 80%;
-  text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 18rem;
+    padding-top: 3rem;
+    max-width: 80%;
+    text-align: center;
 }
 .container-biographie .texte-photo-stephane img {
-  width: 20%;
-  margin-right: 5%;
-  border: 2px solid black;
-  border-radius: 10px;
+    width: 20%;
+    margin-right: 5%;
+    border: 2px solid black;
+    border-radius: 10px;
 }
 .container-biographie .texte-photo-stephane .texte-stephane,
 .container-biographie .texte-photo-stephane .texte-jerome {
-  width: 70%;
-  display: flex;
-  flex-direction: column;
-  align-items: justify;
-  justify-content: center;
-  font-family: "F1 Regular";
-  line-height: 1.6;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: justify;
+    justify-content: center;
+    font-family: "F1 Regular";
+    line-height: 1.6;
 }
 .container-biographie .texte-photo-stephane .texte-stephane .txt-align,
 .container-biographie .texte-photo-stephane .texte-jerome .txt-align {
-  text-align: center;
-  margin: 2rem;
+    text-align: center;
+    margin: 2rem;
 }
 .container-biographie .texte-photo-stephane .texte-jerome {
-  padding-bottom: 2rem;
+    padding-bottom: 2rem;
 }
 .container-biographie .texte-stephane-second {
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 30px 6rem;
-  text-align: center;
-  line-height: 1.6;
-  margin-bottom: 5rem;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 6rem;
+    text-align: center;
+    line-height: 1.6;
+    margin-bottom: 5rem;
 }
 .container-biographie .Texte-photo-jerome-stephane {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  margin: 50px 0;
-  padding-top: 3rem;
-  max-width: 80%;
-  text-align: justify;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+    padding-top: 3rem;
+    max-width: 80%;
+    text-align: justify;
 }
 .container-biographie .Texte-photo-jerome-stephane img {
-  width: 20%;
-  margin-right: 5%;
-  border: 2px solid black;
-  border-radius: 10px;
+    width: 20%;
+    margin-right: 5%;
+    border: 2px solid black;
+    border-radius: 10px;
 }
 .container-biographie img {
-  transition: transform 0.4s ease-in-out;
+    transition: transform 0.4s ease-in-out;
 }
 .container-biographie img:hover {
-  transform: scale(1.15);
+    transform: scale(1.15);
 }
 
 #img-saxo-jura {
-  position: relative;
-  bottom: -120px;
-  /* pour cacher l'image au début */
-  opacity: 0;
-  transition: bottom 2s, opacity 2s;
-  /* pour ajouter une animation */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  margin: 0 10rem;
-  padding-bottom: 7rem;
+    position: relative;
+    bottom: -120px;
+    /* pour cacher l'image au début */
+    opacity: 0;
+    transition: bottom 2s, opacity 2s;
+    /* pour ajouter une animation */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 10rem;
+    padding-bottom: 7rem;
 }
 #img-saxo-jura .saxo1 {
-  border: 2px solid black;
-  border-radius: 15px;
+    border: 2px solid black;
+    border-radius: 15px;
 }
 #img-saxo-jura .text-adventure-top {
-  display: flex !important;
-  flex-direction: column;
-  /* Ajout de cette ligne pour centrer */
-  justify-content: center;
-  width: 50%;
-  margin-left: 6rem;
+    display: flex !important;
+    flex-direction: column;
+    /* Ajout de cette ligne pour centrer */
+    justify-content: center;
+    width: 50%;
+    margin-left: 6rem;
 }
 #img-saxo-jura .text-adventure-top p {
-  padding-left: 0.5rem;
-  font-family: "F1 Regular";
-  text-align: left;
-  line-height: 1.6;
+    padding-left: 0.5rem;
+    font-family: "F1 Regular";
+    text-align: left;
+    line-height: 1.6;
 }
 
 .container-adventure h1 {
-  padding-top: 3rem;
-  padding-bottom: 2rem;
-  text-align: center;
-  font-family: "F1 Regular";
-  margin: 5rem 20rem;
-  font-size: 1.7rem;
-  color: rgba(0, 0, 0, 0.6);
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    font-family: "F1 Regular";
+    margin: 5rem 20rem;
+    font-size: 1.7rem;
+    color: rgba(0, 0, 0, 0.6);
 }
 .container-adventure .adventure-second-text {
-  background-color: white;
+    background-color: white;
 }
 .container-adventure .adventure-second-text p {
-  font-family: "F1 Regular";
-  text-align: center;
-  padding: 8rem 20rem;
-  line-height: 1.6;
+    font-family: "F1 Regular";
+    text-align: center;
+    padding: 8rem 20rem;
+    line-height: 1.6;
 }
 .container-adventure .adventure-troisieme-text {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: "F1 Regular";
-  line-height: 1.6;
-  text-align: center;
-  margin: 5rem 18rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "F1 Regular";
+    line-height: 1.6;
+    text-align: center;
+    margin: 5rem 18rem;
 }
 .container-adventure .adventure-troisieme-text .big-strong {
-  font-size: 1.5rem;
+    font-size: 1.5rem;
 }
 .container-adventure .adventure-troisieme-text .adventure-ford-mk2 {
-  border: 2px solid black;
-  border-radius: 15px;
-  margin-left: 7rem;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-left: 7rem;
 }
 .container-adventure .adventure-quatrieme-text {
-  background-color: white;
-  font-family: "F1 Regular";
-  line-height: 1.6;
-  text-align: center;
-  padding: 6rem 25rem;
+    background-color: white;
+    font-family: "F1 Regular";
+    line-height: 1.6;
+    text-align: center;
+    padding: 6rem 25rem;
 }
 .container-adventure img {
-  transition: transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
 }
 .container-adventure img:hover {
-  transform: scale(1.09);
+    transform: scale(1.09);
 }
 
 .container-presse {
-  background: #faf8f5;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+    background: #faf8f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .container-presse h3 {
-  margin-bottom: 4rem;
+    margin-bottom: 4rem;
 }
 .container-presse img {
-  background-color: white;
-  border: 3px solid rgba(0, 0, 0, 0.7);
-  border-radius: 10px;
-  box-shadow: 0 70px 63px -60px #000;
-  transition: transform 0.4s ease-in-out;
-  margin: 5rem;
+    background-color: white;
+    border: 3px solid rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 70px 63px -60px #000;
+    transition: transform 0.4s ease-in-out;
+    margin: 5rem;
 }
 .container-presse img:hover {
-  transform: scale(1.1);
+    transform: scale(1.1);
 }
 .container-presse .presse-photo1-2 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .container-presse .presse-photo3-4 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .container-presse .presse-photo-5 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
 }
 
 .container-association {
-  background: #faf8f5;
-  font-family: "F1 Regular";
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+    background: #faf8f5;
+    font-family: "F1 Regular";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .container-association .titre-second {
-  margin-bottom: 2rem;
+    margin-bottom: 2rem;
 }
 .container-association .titre-second strong {
-  border-bottom: 1px solid black;
+    border-bottom: 1px solid black;
 }
 .container-association .denomination-historique {
-  background: white;
-  border: 2px solid black;
-  border-radius: 10px;
-  padding: 3rem;
-  margin: 5rem;
-  box-shadow: 0 60px 63px -70px #000;
-  transition: transform 0.4s ease-in-out;
+    background: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 3rem;
+    margin: 5rem;
+    box-shadow: 0 60px 63px -70px #000;
+    transition: transform 0.4s ease-in-out;
 }
 .container-association .ses-moyens-action {
-  background: white;
-  border: 2px solid black;
-  border-radius: 10px;
-  padding: 3rem;
-  transition: transform 0.4s ease-in-out;
-  box-shadow: 0 60px 63px -70px #000;
+    background: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 3rem;
+    transition: transform 0.4s ease-in-out;
+    box-shadow: 0 60px 63px -70px #000;
 }
 .container-association .denomination-historique:hover,
 .container-association .ses-moyens-action:hover {
-  transform: scale(1.05);
+    transform: scale(1.05);
 }
 .container-association img {
-  width: 50vh;
-  margin: 9rem;
+    width: 50vh;
+    margin: 9rem;
 }
 
 .container-discipline {
-  font-family: "F1 Regular";
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+    font-family: "F1 Regular";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .container-discipline .discipline-texte-first {
-  padding: 6rem 5rem;
-  text-align: center;
+    padding: 6rem 5rem;
+    text-align: center;
 }
 .container-discipline .discipline-texte-second {
-  padding: 0 25rem;
-  padding-bottom: 5rem;
+    padding: 0 25rem;
+    padding-bottom: 5rem;
 }
 .container-discipline img {
-  transition: transform 0.4s ease-in-out;
-  border: 2px solid black;
-  border-radius: 10px;
-  width: 60vh;
+    transition: transform 0.4s ease-in-out;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 60vh;
 }
 .container-discipline img:hover {
-  transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 /*# sourceMappingURL=main.css.map */
