@@ -1,0 +1,41 @@
+.container-association {
+  background: #faf8f5;
+  font-family: "F1 Regular";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container-association .titre-second {
+  margin-bottom: 2rem;
+}
+.container-association .titre-second strong {
+  border-bottom: 1px solid black;
+}
+.container-association .denomination-historique {
+  background: white;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 3rem;
+  margin: 5rem;
+  box-shadow: 0 60px 63px -70px #000;
+  transition: transform 0.4s ease-in-out;
+}
+.container-association .ses-moyens-action {
+  background: white;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 3rem;
+  transition: transform 0.4s ease-in-out;
+  box-shadow: 0 60px 63px -70px #000;
+}
+.container-association .denomination-historique:hover,
+.container-association .ses-moyens-action:hover {
+  transform: scale(1.05);
+}
+.container-association img {
+  width: 50vh;
+  margin: 9rem;
+}
+
+/*# sourceMappingURL=association.css.map */

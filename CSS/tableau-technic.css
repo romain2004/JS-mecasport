@@ -1,4 +1,10 @@
-table {
+.container-technical {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container-technical table {
   font-family: Arial, sans-serif;
   border-collapse: collapse;
   margin: 25px auto;
@@ -10,44 +16,46 @@ table {
   margin-bottom: 4rem;
   margin-top: 6rem;
 }
-
-th,
-td {
+.container-technical th,
+.container-technical td {
   padding: 10px;
   text-align: center;
   color: #444;
   border: 1px solid #ccc;
 }
-
-th {
+.container-technical th {
   background-color: #00A8CC;
   color: #fff;
   text-transform: uppercase;
   font-family: "Bruno Ace SC", cursive;
 }
-
-tr:nth-child(even) {
+.container-technical tr:nth-child(even) {
   background-color: #f2f2f2;
 }
-
-tr:hover {
+.container-technical tr:hover {
   background-color: #00A8CC;
   color: #fff;
   transition: 0.3s;
 }
-
-.row:nth-child(odd) {
+.container-technical .row:nth-child(odd) {
   background-color: #e3dfdf;
 }
-
-.row:nth-child(even) {
+.container-technical .row:nth-child(even) {
   background-color: #faf8f5;
 }
-
-.row:hover {
+.container-technical .row:hover {
   background-color: #00A8CC;
   color: #fff;
   transition: 0.3s;
+}
+.container-technical img {
+  border: 2px solid black;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+  margin: 2rem 3rem;
+}
+.container-technical img:hover {
+  transform: scale(1.09);
 }
 
 /*# sourceMappingURL=tableau-technic.css.map */

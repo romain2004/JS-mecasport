@@ -6,9 +6,9 @@
 }
 
 .img-fond {
-  min-height: 100vh;
-  background-image: url(./img/image-acceuille-fond.png);
-  background-size: 100% 125%;
+  min-height: calc(100vh - 100px);
+  background-image: url(../CSS/img/new-voiture/photo-profil.jpg);
+  background-size: 100% 170%;
   background-position: center;
 }
 
@@ -145,16 +145,19 @@ a {
 }
 .container-contact p {
   font-family: "F1 Regular";
+  line-height: 1.6;
 }
-.container-contact .sentence-information {
-  padding: 1rem;
+.container-contact .contact-sentence-information {
+  padding: 3rem;
 }
 .container-contact h3,
 .container-contact h1 {
   font-family: "Bruno Ace SC";
 }
 .container-contact h1 {
-  padding-top: 1.9rem;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  font-size: 1.6rem;
 }
 .container-contact h3 {
   padding-top: 7rem;
@@ -162,9 +165,10 @@ a {
 }
 .container-contact .info-contact {
   padding-top: 3rem;
+  padding-bottom: 1rem;
 }
 .container-contact .mail {
-  font-family: "Inconsolata", monospace;
+  font-family: "F1 Regular", cursif;
 }
 
 footer {
@@ -226,12 +230,12 @@ footer .footer-centre {
 }
 
 .card0 {
-  background: url("https://i.pinimg.com/736x/8f/a0/51/8fa051251f5ac2d0b756027089fbffde--terry-o-neill-al-pacino.jpg") center center no-repeat;
+  background: url(../CSS/img/stephane-noir-blanc.png) center center no-repeat;
   background-size: 300px;
 }
 
 .card0:hover {
-  background: url("https://i.pinimg.com/736x/8f/a0/51/8fa051251f5ac2d0b756027089fbffde--terry-o-neill-al-pacino.jpg") left center no-repeat;
+  background: url(../CSS/img/stephane-noir-blanc.png) left center no-repeat;
   background-size: 600px;
 }
 
@@ -244,12 +248,12 @@ footer .footer-centre {
 }
 
 .card1 {
-  background: url("https://i.pinimg.com/originals/28/d2/e6/28d2e684e7859a0dd17fbd0cea00f8a9.jpg") center center no-repeat;
+  background: url(../CSS/img/jerome-noir-blanc.png) center center no-repeat;
   background-size: 300px;
 }
 
 .card1:hover {
-  background: url("https://i.pinimg.com/originals/28/d2/e6/28d2e684e7859a0dd17fbd0cea00f8a9.jpg") left center no-repeat;
+  background: url(../CSS/img/jerome-noir-blanc.png) left center no-repeat;
   background-size: 600px;
 }
 
@@ -268,9 +272,16 @@ h2 {
   opacity: 0;
   transition: opacity 1s;
   font-size: 28px;
+  font-family: "F1 Regular";
 }
 
-table {
+.container-technical {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container-technical table {
   font-family: Arial, sans-serif;
   border-collapse: collapse;
   margin: 25px auto;
@@ -282,44 +293,46 @@ table {
   margin-bottom: 4rem;
   margin-top: 6rem;
 }
-
-th,
-td {
+.container-technical th,
+.container-technical td {
   padding: 10px;
   text-align: center;
   color: #444;
   border: 1px solid #ccc;
 }
-
-th {
+.container-technical th {
   background-color: #00A8CC;
   color: #fff;
   text-transform: uppercase;
   font-family: "Bruno Ace SC", cursive;
 }
-
-tr:nth-child(even) {
+.container-technical tr:nth-child(even) {
   background-color: #f2f2f2;
 }
-
-tr:hover {
+.container-technical tr:hover {
   background-color: #00A8CC;
   color: #fff;
   transition: 0.3s;
 }
-
-.row:nth-child(odd) {
+.container-technical .row:nth-child(odd) {
   background-color: #e3dfdf;
 }
-
-.row:nth-child(even) {
+.container-technical .row:nth-child(even) {
   background-color: #faf8f5;
 }
-
-.row:hover {
+.container-technical .row:hover {
   background-color: #00A8CC;
   color: #fff;
   transition: 0.3s;
+}
+.container-technical img {
+  border: 2px solid black;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+  margin: 2rem 3rem;
+}
+.container-technical img:hover {
+  transform: scale(1.09);
 }
 
 .container-sponsors p {
@@ -468,6 +481,12 @@ tr:hover {
   border: 2px solid black;
   border-radius: 10px;
 }
+.container-biographie img {
+  transition: transform 0.4s ease-in-out;
+}
+.container-biographie img:hover {
+  transform: scale(1.15);
+}
 
 #img-saxo-jura {
   position: relative;
@@ -509,6 +528,7 @@ tr:hover {
   font-family: "F1 Regular";
   margin: 5rem 20rem;
   font-size: 1.7rem;
+  color: rgba(0, 0, 0, 0.6);
 }
 .container-adventure .adventure-second-text {
   background-color: white;
@@ -543,6 +563,12 @@ tr:hover {
   text-align: center;
   padding: 6rem 25rem;
 }
+.container-adventure img {
+  transition: transform 0.3s ease-in-out;
+}
+.container-adventure img:hover {
+  transform: scale(1.09);
+}
 
 .container-presse {
   background: #faf8f5;
@@ -556,7 +582,7 @@ tr:hover {
 }
 .container-presse img {
   background-color: white;
-  border: 3px solid black;
+  border: 3px solid rgba(0, 0, 0, 0.7);
   border-radius: 10px;
   box-shadow: 0 70px 63px -60px #000;
   transition: transform 0.4s ease-in-out;
@@ -580,6 +606,71 @@ tr:hover {
   align-items: center;
   justify-content: center;
   margin-bottom: 5rem;
+}
+
+.container-association {
+  background: #faf8f5;
+  font-family: "F1 Regular";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container-association .titre-second {
+  margin-bottom: 2rem;
+}
+.container-association .titre-second strong {
+  border-bottom: 1px solid black;
+}
+.container-association .denomination-historique {
+  background: white;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 3rem;
+  margin: 5rem;
+  box-shadow: 0 60px 63px -70px #000;
+  transition: transform 0.4s ease-in-out;
+}
+.container-association .ses-moyens-action {
+  background: white;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 3rem;
+  transition: transform 0.4s ease-in-out;
+  box-shadow: 0 60px 63px -70px #000;
+}
+.container-association .denomination-historique:hover,
+.container-association .ses-moyens-action:hover {
+  transform: scale(1.05);
+}
+.container-association img {
+  width: 50vh;
+  margin: 9rem;
+}
+
+.container-discipline {
+  font-family: "F1 Regular";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container-discipline .discipline-texte-first {
+  padding: 6rem 5rem;
+  text-align: center;
+}
+.container-discipline .discipline-texte-second {
+  padding: 0 25rem;
+  padding-bottom: 5rem;
+}
+.container-discipline img {
+  transition: transform 0.4s ease-in-out;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 60vh;
+}
+.container-discipline img:hover {
+  transform: scale(1.1);
 }
 
 /*# sourceMappingURL=main.css.map */
