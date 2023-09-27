@@ -23,10 +23,10 @@
     }
 
     th {
-        background-color: #00A8CC;
+        background-color: #00a8cc;
         color: #fff;
         text-transform: uppercase;
-        font-family: 'Bruno Ace SC', cursive;
+        font-family: "Bruno Ace SC", cursive;
     }
 
     tr:nth-child(even) {
@@ -34,7 +34,7 @@
     }
 
     tr:hover {
-        background-color: #00A8CC;
+        background-color: #00a8cc;
         color: #fff;
         transition: 0.3s;
     }
@@ -48,7 +48,7 @@
     }
 
     .row:hover {
-        background-color: #00A8CC;
+        background-color: #00a8cc;
         color: #fff;
         transition: 0.3s;
     }
@@ -81,5 +81,25 @@
 
     .titre-budget-corse {
         padding-top: 0rem !important;
+    }
+
+    .image-container-corse {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 100%;
+        padding-top: 60px;
+    }
+    .image-corse {
+        border: 2px solid black;
+        border-radius: 10px;
+        transition: transform 0.3s ease-in-out;
+        margin: 2rem 3rem;
+        max-width: 30%; /* Limite la largeur de chaque image à environ 48% de la largeur du conteneur pour permettre deux images côte à côte */
+        margin-bottom: 10px;
+    }
+
+    .image-corse:hover {
+        transform: scale(1.09);
     }
 }

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .container-corse {
   background-color: #faf8f5;
 }
@@ -21,7 +22,7 @@
   border: 1px solid #ccc;
 }
 .container-corse th {
-  background-color: #00A8CC;
+  background-color: #00a8cc;
   color: #fff;
   text-transform: uppercase;
   font-family: "Bruno Ace SC", cursive;
@@ -30,7 +31,7 @@
   background-color: #f2f2f2;
 }
 .container-corse tr:hover {
-  background-color: #00A8CC;
+  background-color: #00a8cc;
   color: #fff;
   transition: 0.3s;
 }
@@ -41,7 +42,7 @@
   background-color: #faf8f5;
 }
 .container-corse .row:hover {
-  background-color: #00A8CC;
+  background-color: #00a8cc;
   color: #fff;
   transition: 0.3s;
 }
@@ -68,6 +69,24 @@
 }
 .container-corse .titre-budget-corse {
   padding-top: 0rem !important;
+}
+.container-corse .image-container-corse {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 100%;
+  padding-top: 60px;
+}
+.container-corse .image-corse {
+  border: 2px solid black;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+  margin: 2rem 3rem;
+  max-width: 30%; /* Limite la largeur de chaque image à environ 48% de la largeur du conteneur pour permettre deux images côte à côte */
+  margin-bottom: 10px;
+}
+.container-corse .image-corse:hover {
+  transform: scale(1.09);
 }
 
 /*# sourceMappingURL=objectif-corse.css.map */
