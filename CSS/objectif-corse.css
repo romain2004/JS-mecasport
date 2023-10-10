@@ -3,7 +3,7 @@
   background-color: #faf8f5;
 }
 .container-corse .titre-corse {
-  padding-top: 4rem;
+  padding-top: 8rem;
 }
 .container-corse table {
   font-family: Arial, sans-serif;
@@ -71,7 +71,7 @@
   flex-direction: column;
 }
 .container-corse .titre-budget-corse {
-  padding-top: 0rem !important;
+  padding-top: 8rem !important;
 }
 .container-corse .image-container-corse {
   display: flex;
@@ -106,7 +106,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 7rem;
+  margin-bottom: 2rem;
   margin-top: 7rem;
 }
 .container-corse .text-jour-j p {
@@ -117,6 +117,21 @@
   text-align: center;
   word-spacing: 2px;
   font-size: 1.2rem;
+}
+.container-corse .logo-tour-historique-corse {
+  display: flex;
+  justify-content: center;
+}
+.container-corse .container-assistance .assistance-neutre {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.container-corse .container-assistance .assistance-neutre img {
+  width: 140vh;
+}
+.container-corse .container-assistance img {
+  width: 40vh;
 }
 
 /*# sourceMappingURL=objectif-corse.css.map */

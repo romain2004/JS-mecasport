@@ -2,7 +2,7 @@
     background-color: #faf8f5;
 
     .titre-corse {
-        padding-top: 4rem;
+        padding-top: 8rem;
     }
 
     table {
@@ -84,7 +84,7 @@
     }
 
     .titre-budget-corse {
-        padding-top: 0rem !important;
+        padding-top: 8rem !important;
     }
 
     .image-container-corse {
@@ -124,7 +124,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-bottom: 7rem;
+        margin-bottom: 2rem;
         margin-top: 7rem;
 
         p {
@@ -135,6 +135,25 @@
             text-align: center;
             word-spacing: 2px;
             font-size: 1.2rem;
+        }
+    }
+
+    .logo-tour-historique-corse {
+        display: flex;
+        justify-content: center;
+    }
+
+    .container-assistance {
+        .assistance-neutre {
+            justify-content: center;
+            display: flex;
+            align-items: center;
+            img {
+                width: 140vh;
+            }
+        }
+        img {
+            width: 40vh;
         }
     }
 }
