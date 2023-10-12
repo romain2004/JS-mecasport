@@ -490,6 +490,9 @@ h2 {
 .container-corse .container-assistance img {
   width: 40vh;
 }
+.container-corse .photo-taille-réduite {
+  width: 50vh;
+}
 
 .container-biographie {
   background-color: #faf8f5;
